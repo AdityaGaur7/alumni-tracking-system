@@ -1,0 +1,228 @@
+.body{
+    background-color: #d1dadf;
+    background-image: url('pawel-czerwinski-qIZMt-o2RIk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 100%;
+}
+
+.img{
+    padding-top: 5px;
+    padding-left: 5px;
+    width: auto;
+    height: 50px;
+    float: left;
+    
+}
+.nav{
+    background-color: #89a5bb;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    overflow: hidden;
+}
+.navbar{
+    color: #d3eaf2;
+    padding-left: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+    font-family: 'Jost',sans-serif;
+    overflow: hidden;
+}
+.navbar a{
+    color: #d3eaf2;
+}
+.navbar a:hover{
+    color: rgb(130, 130, 130);
+}
+.alumni{
+    color:#d3eaf2;
+    text-decoration: underline;
+    position: relative;
+
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.alumni :hover{
+    color:rgb(130, 130, 130);
+}
+.p{
+    font-weight: bolder;
+    color: #d3eaf2;
+}
+.p:hover{
+    color:rgb(130, 130, 130) ;
+}
+.dropdown{
+    position: relative;
+    color: #0a0a0a;
+    padding-left: 15px;
+    display: inline-block;
+}
+.dropdown-content{
+    min-height: fit-content;
+    border:rgb(0, 0, 0);
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 6px;
+    background-color:  #89a5bb;
+    color: #5d5d5d;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    color: rgb(153, 123, 185);
+}
+.login{
+    font-weight: bolder;
+    color: #0a0a0a;
+    border-width: 2px;
+    border-color: #0a0a0a;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.register{
+    font-weight: bolder;
+    color: #0a0a0a;
+    border-width: 2px;
+    border-color: #0a0a0a;
+    border-radius:20px;
+    padding-right:0px;
+}
+.texthover:hover{
+    color: azure;
+}
+.heading{
+    padding-left: 20px;
+    color: #397caf;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.gallery{
+    background-color: #d1dadf;
+
+}
+.container {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 70px;
+    margin-top: -50px;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 0px 0px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.prev{
+    left: 0px;
+}
+
+.next {
+    right: 0;
+    border-radius: 0px 0 0 0px;
+}
+
+.prev:hover, .next:hover {
+    color: rgb(97, 95, 95);
+}
+
+.numbertext {
+    color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.caption-container {
+text-align: center;
+background-color: #222;
+padding: 2px 16px;
+color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
+.rightarrow{
+    border: none;
+    padding-right: 0px;
+}
+.leftarrow{
+    border: none;
+    padding-left: 0%;
+}
+.def dt{
+    color: #89a5bb;
+    font-size: 30px;
+    text-align: justify;
+}
+.def dd{
+    color: #cce1ec;
+    font-size: 20px;
+}
+.hr{
+    border-color: #80b4d0;
+}
+.table{
+    width: 100%;
+    border: #bbbbbb;
+    border-radius: 20px;
+
+}
+.table th{
+    color: #89a5bb;
+    font-size: 30px;
+    text-align: center;
+}
+.table td{
+    color: #cce1ec;
+    font-size: 20px;
+    width: 33.333%;
+}
+.table td a{
+    color: #cce1ec;
+}
+.table td a:hover{
+    color: #397caf;
+}
+.table td a:active{
+    color: #3e576b;
+}
